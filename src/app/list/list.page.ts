@@ -16,7 +16,7 @@ export class ListPage implements OnInit {
     console.log("ngOnInit in list page ")
   }
   gotToHome() {
-    let index = Math.random()*10;
+    //let index = Math.random()*10;
     // this.router.navigateByUrl(`/home/${index}`);
     // this.router.navigateByUrl('/home');
     // this.navCtrl.setRoot();
