@@ -20,13 +20,13 @@ export class HomePage implements OnInit {
   }
   gotToRoute() {
     console.log("incoming to bondddd ");
-    let index = Math.random()*10;
-    // this.navCtrl.navigateBack('/list');
+    //let index = Math.random()*10;
+    this.navCtrl.navigateBack('/list');
 
     // this.router.navigateByUrl(`/list/${index}`);
     // this.router.navigateByUrl('/list');
     // this.navCtrl.pop();
-    this.navCtrl.navigateRoot('/list');
+    //this.navCtrl.navigateRoot('/list');
   }
 
 }
